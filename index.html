@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <form action="javascript:;" onsubmit="setAction(this)" class="form" method="POST">
+      Хичээлийн нэр: <input type="text" name="courseName">
+      Кредит:        <input type="number" name="credit">
+      Дүн:           <input type="number" name="score">
+                     <input type="submit" class="btn" value="submit">
+
+    </form>
+    <div class="result">
+      <table class="info-table" id="info-table">
+        <tr>
+          <th>№</th>
+          <th>Хичээлийн нэр</th>
+          <th>Кредит</th>
+          <th>Дүн</th>
+        </tr>
+       
+        
+      </table>
+      
+      <input type="button" value="result" class="res-btn">
+      <h5  style="display: inline;">Нийт голч: <p class="res" style="display: inline;">None</p></h5>
+    </div>
+    
+    
+  </div>
+  
+  <img src="./Pic.png" alt="pic" class="image">
+  <script src="./js.js"></script>
+</body>
+</html>
